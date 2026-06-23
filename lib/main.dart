@@ -11,6 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        textSelectionTheme: TextSelectionThemeData(
+          cursorColor: Color(0XEE0066FF),
+        ),
+      ),
       debugShowCheckedModeBanner: false,
       home: OnboardingScreen(),
     );
