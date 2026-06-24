@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_payment/features/screens/onboarding/sign_in_screen.dart';
+import 'package:online_payment/features/screens/onboarding/auth/sign_in_screen.dart';
 import 'package:online_payment/shared/widgets/custom_btn.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 

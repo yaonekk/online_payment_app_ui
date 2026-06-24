@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:online_payment/features/screens/onboarding/sign_up_screen.dart';
+import 'package:online_payment/features/screens/onboarding/auth/sign_up_screen.dart';
 import 'package:online_payment/shared/widgets/custom_btn.dart';
 
 class SignInScreen extends StatefulWidget {
