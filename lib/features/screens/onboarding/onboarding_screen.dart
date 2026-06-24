@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:online_payment/features/screens/onboarding/sign_in_screen.dart';
+import 'package:online_payment/shared/widgets/custom_btn.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -99,25 +100,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     });
                   }
                 },
-
-                child: Container(
-                  height: 65,
-                  width: 360,
-                  decoration: BoxDecoration(
-                    borderRadius: .circular(16),
-                    color: Color(0XEE0066FF),
-                  ),
-                  child: Center(
-                    child: Text(
-                      'Next',
-                      style: TextStyle(
-                        fontWeight: .bold,
-                        color: Colors.white,
-                        fontSize: 18,
-                      ),
-                    ),
-                  ),
-                ),
+                child: CustomBtn(textBtn: 'Next'),
               ),
             ],
           ),
